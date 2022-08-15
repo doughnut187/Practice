@@ -31,15 +31,15 @@
 /*                     promised base solution                                 */
 /*----------------------------------------------------------------------------*/
 
-const { readFile } = require('fs').promises;
+// const { readFile } = require('fs').promises;
 
 // async function hello() {
 //     const file = await readFile('./hello.txt', 'utf8');
 // };
 
-app.get('/', async, (request, response) => {
-    response.send(await readFile('./home.html', 'utf8'));
-});
+// app.get('/', async, (request, response) => {
+//     response.send(await readFile('./home.html', 'utf8'));
+// });
 
 /*----------------------------------------------------------------------------*/
 /*                     module practice                                        */
